@@ -1,6 +1,5 @@
 import 'package:get/get_navigation/src/routes/get_route.dart';
 import 'package:project/presentation/pages/home_page/home_page.dart';
-import 'package:project/presentation/pages/profile_page/profile_page.dart';
 import 'package:project/presentation/pages/splash_page/splash_page.dart';
 
 class RouteHelper {
@@ -22,11 +21,6 @@ class RouteHelper {
      GetPage(
       name: home,
       page: () => const HomePage(),
-    ),
-
-    GetPage(
-      name: profile,
-      page: () => const profilePage(),
     ),
   ];
 }
