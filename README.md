@@ -1,16 +1,27 @@
-# project
+# Flutter with OpenAPI and GetX
 
-A new Flutter project.
+Flutter GetX OpenAPI Project repository! This project represents a fully functional Flutter application built with GetX for efficient state management and integrated with OpenAPI for seamless communication.
+The Dart code for OpenAPI integration was generated using openapi-generator. You can find the OpenAPI JSON file online.
 
-## Getting Started
+# Installation and Run Guide
+Clone this repository to your local machine:
+```
+git clone https://github.com/tikeshsahu/OpenApiIntegration.git
+```
+Navigate to the project directory:
+```
+cd assignment
+```
+Install dependencies using Flutter's package manager:
+```
+flutter pub get
+```
+Run Project
+```
+flutter run
+```
 
-This project is a starting point for a Flutter application.
+# Note
+  ). OpenAPI: The app utilizes the PetStore OpenAPI for backend integration. You can find the OpenAPI swagger online.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  ). Image Usage: Images displayed in the app are randomly selected to enhance the user experience.
